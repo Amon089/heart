@@ -9,7 +9,7 @@ window.msRequestAnimationFrame ||
 function (cb) { setTimeout(cb, 1000 / 60); };
 
 /* ================= AUDIO ================= */
-var MUSIC_SRC = "Arctic Monkeys - I Wanna Be Yours.mp3";
+var MUSIC_SRC = "Arctic-Monkeys-I-Wanna-Be-Yours.mp3";
 var audio = new Audio(MUSIC_SRC);
 audio.loop = true;
 audio.volume = 0.8;
